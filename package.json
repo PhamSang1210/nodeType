@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "dist/server.js",
     "scripts": {
-        "start": "nodemon dist/server.js",
+        "start": "node dist/server.js",
         "dev": "npx tsc && nodemon server.ts",
         "watch": "nodemon server.ts && tsc"
     },
